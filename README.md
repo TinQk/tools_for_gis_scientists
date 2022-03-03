@@ -8,6 +8,9 @@
   ```javascript
   console.log("I'm a code block!");
   ```
+
+  <summary>Spoiler warning 2</summary>
+  Spoiler text2
   
 </details>
 
