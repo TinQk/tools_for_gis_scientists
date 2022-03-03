@@ -1,17 +1,9 @@
 # tools_for_gis_scientists
 
 <details>
-  <summary>Spoiler warning</summary>
+  <summary>Title</summary>
   
-  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
-  
-  ```javascript
-  console.log("I'm a code block!");
-  ```
-
-  <summary>Spoiler warning 2</summary>
-  Spoiler text2
-  
+  Spoiler text.
 </details>
 
 --- Python librairies ---
@@ -45,8 +37,20 @@ networkx :
 PySAL : open-source meta-package that brings together a family of packages for spatial data science
 https://pysal.org/
 
-	MomePy : Momepy is a library for quantitative analysis of urban form - urban morphometrics. It is part of PySAL (Python Spatial Analysis Library) and is built on top of GeoPandas, other PySAL modules and networkX.
+MomePy : Morphological Measuring in Python
+Momepy is a library for quantitative analysis of urban form - urban morphometrics. It is part of PySAL (Python Spatial Analysis Library) and is built on top of GeoPandas, other PySAL modules and networkX.
+
+> Some of the functionality that momepy offers:
+> Measuring dimensions of morphological elements, their parts, and aggregated structures.
+> Quantifying shapes of geometries representing a wide range of morphological features.
+> Capturing spatial distribution of elements of one kind as well as relationships between different kinds.
+> Computing density and other types of intensity characters.
+> Calculating diversity of various aspects of urban form.
+> Capturing connectivity of urban street networks
+> Generating relational elements of urban form (e.g. morphological tessellation)
+
 --> used for converting gdf to networkx graph
+
 
 geopandas : pandas with a geographic component, manipule les geoDataFrames
 https://geopandas.org/en/stable/docs.html
