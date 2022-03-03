@@ -31,6 +31,7 @@ neo4j : managing graphs
 psycopg : postgresql driver for python
 
 networkx :
+--> before using networkx functions for GIS analysis, I suggest to check PySAL library, and especially its "momepy" module.
 
 -- SIG --
 
@@ -38,19 +39,23 @@ PySAL : open-source meta-package that brings together a family of packages for s
 https://pysal.org/
 
 MomePy : Morphological Measuring in Python
-Momepy is a library for quantitative analysis of urban form - urban morphometrics. It is part of PySAL (Python Spatial Analysis Library) and is built on top of GeoPandas, other PySAL modules and networkX.
 
+> Momepy is a library for quantitative analysis of urban form - urban morphometrics. It is part of PySAL (Python Spatial Analysis Library) and is built on top of GeoPandas, other PySAL modules and networkX.
+>
 > Some of the functionality that momepy offers:
-> Measuring dimensions of morphological elements, their parts, and aggregated structures.
-> Quantifying shapes of geometries representing a wide range of morphological features.
-> Capturing spatial distribution of elements of one kind as well as relationships between different kinds.
-> Computing density and other types of intensity characters.
-> Calculating diversity of various aspects of urban form.
-> Capturing connectivity of urban street networks
-> Generating relational elements of urban form (e.g. morphological tessellation)
+>
+> * Measuring dimensions of morphological elements, their parts, and aggregated structures.
+> * Quantifying shapes of geometries representing a wide range of morphological features.
+> * Capturing spatial distribution of elements of one kind as well as relationships between different kinds.
+> * Computing density and other types of intensity characters.
+> * Calculating diversity of various aspects of urban form.
+> * Capturing connectivity of urban street networks
+> * Generating relational elements of urban form (e.g. morphological tessellation)
 
 --> used for converting gdf to networkx graph
 
+osm2pgsql : little software in command line
+https://osm2pgsql.org/
 
 geopandas : pandas with a geographic component, manipule les geoDataFrames
 https://geopandas.org/en/stable/docs.html
@@ -88,11 +93,16 @@ lidar : process and visualize lidar data
 
 Geemap
 
+depthmapX software and its qgis plugin : Space Syntax Toolkit
+https://github.com/SpaceGroupUCL/qgisSpaceSyntaxToolkit
+
 Folium : build interactive webmap
 
 GrassGIS : GRASS GIS contains over 500 modules to process and render geographic data. The software allows to manipulate a variety of raster, vector and 3D formats, and run simple to advanced spatial analysis and modeling.
 https://grass.osgeo.org/learn/overview/
 include cluster identification, generalization
+
+PSTalgo library and PST qgis plugin is a tool for performing space syntax and regular accessibility analyses.
 
 overpass
 
