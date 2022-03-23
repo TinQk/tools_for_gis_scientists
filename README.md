@@ -39,6 +39,10 @@ PySAL : open-source meta-package that brings together a family of packages for s
 https://pysal.org/
 
 MomePy : Morphological Measuring in Python
+--> straightness centrality
+--> betweenness centrality
+--> COINS and strokes
+--> linearity
 
 > Momepy is a library for quantitative analysis of urban form - urban morphometrics. It is part of PySAL (Python Spatial Analysis Library) and is built on top of GeoPandas, other PySAL modules and networkX.
 >
