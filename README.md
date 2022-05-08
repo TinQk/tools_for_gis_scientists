@@ -113,6 +113,9 @@ overpass
 wms_grid_gen : produces raster tiles from a wms flux
 https://github.com/ilokhat/wms_grid_gen
 
+CGAL
+https://www.cgal.org/index.html
+
 
 
 --- APIs ---
@@ -136,6 +139,10 @@ star UML : modéliser des diagrames de classes et générer du code automatiquem
 pgmodeler : modéliser des BDD postgresql
 
 Modelio : open source pour faire des graphs
+
+Flourish : data viz
+https://flourish.studio/examples/
+
 
 
 --- Cartographie
